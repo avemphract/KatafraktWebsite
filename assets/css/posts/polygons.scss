@@ -1,0 +1,46 @@
+#polygons{
+    h3 {
+        font-size: xx-large;
+        padding-top: 4em;
+        padding-bottom: 1em;
+    }
+    .svg-container {
+        @apply inline-block;
+        border: 1px solid black;
+        .polygon,
+        .arc {
+            fill: #38a3a5;
+            stroke: #22577a;
+            stroke-width: 20px;
+        }
+        .polyline,
+        .arcline {
+            stroke: #22577a;
+            stroke-width: 20px;
+            stroke-linecap: round;
+            fill: none;
+        }
+        .rect {
+            stroke: black;
+            stroke-width: 3px;
+            stroke-linecap: round;
+            fill: none;
+        }
+        .node {
+            fill: #f13030;
+            stroke: #5a0001;
+            stroke-width: 10px;
+        }
+        .grabbable {
+            cursor: grab;
+        }
+        .grabbable.grabbing {
+            cursor: grabbing;
+        }
+        .point-text {
+            font-family: monospace;
+            fill: #5a0001;
+            font-weight: 900;
+        }
+    }
+}

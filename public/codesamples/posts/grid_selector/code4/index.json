@@ -1,0 +1,33 @@
+{
+    "name":"code4",
+    "languages":
+    [
+        {
+            "language":"cs",
+            "files":[
+                {
+                    "name":"CircleDrawing",
+                    "path":"/CircleDrawing.cs"
+                }
+            ]
+        },
+        {
+            "language":"java",
+            "files":[
+                {
+                    "name":"CircleDrawing",
+                    "path":"/CircleDrawing.java"
+                }
+            ]
+        },
+        {
+            "language":"python",
+            "files":[
+                {
+                    "name":"CircleDrawing",
+                    "path":"/CircleDrawing.py"
+                }
+            ]
+        }
+    ]
+}

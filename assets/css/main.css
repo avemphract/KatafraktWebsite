@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p,
+ol {
+    @apply text-left mx-2 leading-relaxed;
+}
+
+h1{
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
+}
+h3{
+    font-size: large;
+}

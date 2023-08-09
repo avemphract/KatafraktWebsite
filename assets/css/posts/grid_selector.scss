@@ -1,0 +1,34 @@
+#grid_selector{
+    .grid-svg {
+        .grid {
+            fill: #38a3a599;
+            stroke: #22577a99;
+            stroke-width: 0.01px;
+        }
+        .grid.highlighted {
+            fill: #f1303099;
+            stroke: #5a000199;
+        }
+        .inline-circle {
+            fill: #f13030;
+            stroke: #5a0001;
+            stroke-width: 0.05px;
+        }
+        .ring {
+            fill: transparent;
+            stroke: #5a0001;
+            stroke-width: 0.1px;
+        }
+        .moveable {
+            fill: #f13030;
+            stroke: #5a0001;
+            stroke-width: 0.05px;
+            cursor: move;
+        }
+        .moveable-connection {
+            fill: #f1303099;
+            stroke: #5a000199;
+            stroke-width: 0.05px;
+        }
+    }
+}

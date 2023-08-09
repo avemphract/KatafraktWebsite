@@ -1,0 +1,125 @@
+#graphes_grids{
+    #preview-container {
+        @apply block h-auto m-auto w-80 ;
+
+        .node,
+        .grid {
+            fill: #38a3a5;
+            stroke: #22577a;
+            stroke-width: 0.1px;
+        }
+        .connection {
+            stroke: #747c92;
+            stroke-width: 0.1px;
+        }
+    }
+    #graph-container {
+        @apply block h-auto m-auto w-80;
+
+        .node-text {
+            fill: #ffffff;
+            text-anchor: middle;
+        }
+        .node {
+            fill: #38a3a5;
+            stroke: #22577a;
+            stroke-width: 1px;
+        }
+        .node.highlighted {
+            fill: #f13030;
+            stroke: #5a0001;
+        }
+
+        .connection {
+            stroke: #747c92;
+            stroke-width: 2px;
+        }
+        .connection.highlighted {
+            stroke: #202c39;
+        }
+    }
+    .nodes {
+        .node {
+            fill: #38a3a5;
+            stroke: #22577a;
+            stroke-width: 0.08px;
+        }
+        .node.highlighted {
+            fill: #f13030;
+            stroke: #5a0001;
+        }
+    }
+    .connections {
+        .connection {
+            @apply w-5 h-auto;
+            line {
+                stroke: #747c92;
+                stroke-width: 0.3px;
+            }
+            line.highlighted {
+                stroke: #202c39;
+            }
+        }
+    }
+    .grid-svg {
+        @apply block h-auto m-auto w-80;
+
+        .node-text {
+            fill: #ffffff;
+            text-anchor: middle;
+            dominant-baseline: middle;
+        }
+        .node {
+            fill: #38a3a5;
+            stroke: #22577a;
+            stroke-width: 0.1px;
+        }
+        .node.highlighted {
+            fill: #f13030;
+            stroke: #5a0001;
+        }
+
+        .connection {
+            stroke: #747c92;
+            stroke-width: 2px;
+        }
+        .connection.highlighted {
+            stroke: #202c39;
+        }
+    }
+
+    #image-grid-container {
+        @apply block h-auto m-auto w-80;
+
+        background-image: url("/images/map.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        image-rendering: optimizeSpeed; /* STOP SMOOTHING, GIVE ME SPEED  */
+        image-rendering: -moz-crisp-edges; /* Firefox                        */
+        image-rendering: -o-crisp-edges; /* Opera                          */
+        image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+        image-rendering: pixelated; /* Chrome */
+        image-rendering: optimize-contrast; /* CSS3 Proposed                  */
+        -ms-interpolation-mode: nearest-neighbor; /* IE8+  */
+
+        .node {
+            fill: #38a3a5;
+            stroke: #22577a;
+            stroke-width: 0.04px;
+        }
+        .node.highlighted {
+            fill: #f13030;
+            stroke: #5a0001;
+        }
+
+        .connection {
+            stroke: #747c92;
+            stroke-width: 0.15px;
+        }
+        .connection.highlighted {
+            stroke: #202c39;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name":"code1",
+    "languages":
+    [
+        {
+            "language":"cs",
+            "files":[
+                {
+                    "name":"Node",
+                    "path":"/LineInterpolation.cs"
+                }
+            ]
+        },
+        {
+            "language":"java",
+            "files":[
+                {
+                    "name":"LineInterpolation",
+                    "path":"/LineInterpolation.java"
+                }
+            ]
+        },
+        {
+            "language":"python",
+            "files":[
+                {
+                    "name":"LineInterpolation",
+                    "path":"/LineInterpolation.py"
+                }
+            ]
+        }
+    ]
+}

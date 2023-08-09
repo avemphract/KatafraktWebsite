@@ -1,0 +1,33 @@
+{
+    "name":"code3",
+    "languages":
+    [
+        {
+            "language":"cs",
+            "files":[
+                {
+                    "name":"RingDrawing",
+                    "path":"/RingDrawing.cs"
+                }
+            ]
+        },
+        {
+            "language":"java",
+            "files":[
+                {
+                    "name":"RingDrawing",
+                    "path":"/RingDrawing.java"
+                }
+            ]
+        },
+        {
+            "language":"python",
+            "files":[
+                {
+                    "name":"RingDrawing",
+                    "path":"/RingDrawing.py"
+                }
+            ]
+        }
+    ]
+}

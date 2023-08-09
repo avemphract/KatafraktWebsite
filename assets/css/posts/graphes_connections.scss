@@ -1,0 +1,46 @@
+#graphes_connections{
+    .grids {
+        .node {
+            fill: #38a3a5;
+            stroke: #22577a;
+            stroke-width: 0.04px;
+        }
+        .node.highlighted {
+            fill: #f13030;
+            stroke: #5a0001;
+        }
+    
+        .connection {
+            marker-end: url(#arrow-end);
+            stroke: #747c92;
+        }
+        .connection.highlighted {
+            marker-end: url(#arrow-end-highlighted);
+            stroke: #202c39;
+        }
+        .grid {
+            fill: #38a3a511;
+            stroke-width: 0.04px;
+            stroke: #23587b88;
+        }
+    }
+    #dynamic-grid-svg {
+        .node {
+            fill: #38a3a5;
+            stroke: #22577a;
+            stroke-width: 0.04px;
+        }
+        .connection {
+            marker-end: url(#arrow-end);
+            stroke: #747c92;
+        }
+        .connection.hidden {
+            fill: transparent;
+            stroke: transparent;
+        }
+        .collide {
+            stroke: #202c39;
+            stroke-width: 0.025px;
+        }
+    }
+}
